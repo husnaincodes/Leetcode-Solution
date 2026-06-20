@@ -1,4 +1,5 @@
 class Solution:
+    
     def romanToInt(self, s, ):
 
         roman = {'I': 1, 'V': 5, 'X': 10, 'L': 50,
@@ -9,5 +10,5 @@ class Solution:
                 result -= roman[s[i]]
             else:
                 result += roman[s[i]]
-                
+
         return result
