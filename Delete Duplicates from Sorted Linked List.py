@@ -1,5 +1,5 @@
 class Solution:
-    
+
     def deleteDuplicates(self, head):
         curr = head
 
