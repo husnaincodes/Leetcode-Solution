@@ -1,4 +1,5 @@
 class Solution:
+    
     def climbStairs(self, n):
         if n <= 2:
             return n
